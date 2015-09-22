@@ -8,6 +8,18 @@ margin: 0 auto;
 
 }
 
+.part1{
+    background-image: url('fitness.jpg');
+	background-size: cover;
+	height: 700px;
+
+
+}
+
+.list{
+    float: left
+
+}
 /* Here i have positioned the logo */
 
 .logo{
@@ -39,7 +51,7 @@ font-weight:300;
 
 
 .top{
-    margin-top: 120px;
+    padding-top:120px;
 
 
 }
