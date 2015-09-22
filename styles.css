@@ -45,10 +45,26 @@ margin: 0 auto;
 
 }
 
+#part3{
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 50px;
+    background-image: url('bottom.jpeg');
+	background-size: cover;
+	height: 700px;
+    filter: brightness(30%);
+    -webkit-filter: brightness(40%);
+    z-index: -100;
+
+
+
+}
+
 .text {
     float: left;
     margin-left: 100px;
     text-align: center;
+    padding-top: 150px;
 }
 
 /*#hh1,#hh2{
@@ -63,9 +79,9 @@ margin: 0 auto;
 }
 
 
-.list{
-    float: left
-
+.dash{
+    /*float: right;*/
+    margin-left: 50px;
 }
 /* Here i have positioned the logo */
 
@@ -94,6 +110,8 @@ color: #fff;
 font-weight:300;
 
 }
+
+
 
 
 
