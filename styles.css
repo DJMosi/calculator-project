@@ -12,34 +12,57 @@ margin: 0 auto;
     background-image: url('fitness.jpg');
 	background-size: cover;
 	height: 700px;
-    filter: brightness(40%);
+    filter: brightness(30%);
     -webkit-filter: brightness(40%);
+    z-index: -100;
 
 }
+
+#part1 h1{
+
+    color: #fff;
+    text-align: center;
+
+
+}
+
+#part1 h2{
+
+    color: #fff;
+    text-align: center;
+
+}
+
+
 
 
 #part2{
     padding-top: 50px;
     margin-top: 50px;
-    background-color: #2c3e50;
+    background-color: #cccccc;
 	background-size: cover;
-	height: 800px;
+	height: 500px;
 
 }
 
-#hh1{
+.text {
+    float: left;
+    margin-left: 100px;
+    text-align: center;
+}
+
+/*#hh1,#hh2{
     border: 5px;
-    color: #ffffff;
+    color: #fff;
+    z-index: 100;
+    filter: brightness(100%);
+    -webkit-filter: brightness(100%);*/
 
 
 
 }
 
-#hh2{
-    border: 5px;
-    color: #ffffff;
 
-}
 .list{
     float: left
 
