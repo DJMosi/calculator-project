@@ -12,28 +12,32 @@ margin: 0 auto;
     background-image: url('fitness.jpg');
 	background-size: cover;
 	height: 700px;
-    /*opacity: 10%;*/
+    filter: brightness(40%);
+    -webkit-filter: brightness(40%);
 
 }
 
 
 #part2{
-     padding-top: 50px;
-
+    padding-top: 50px;
+    margin-top: 50px;
+    background-color: #2c3e50;
+	background-size: cover;
+	height: 800px;
 
 }
 
 #hh1{
     border: 5px;
-    border-color: #ffffff;
+    color: #ffffff;
 
 
 
 }
 
 #hh2{
-
-    colo
+    border: 5px;
+    color: #ffffff;
 
 }
 .list{
