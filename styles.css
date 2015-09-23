@@ -1,3 +1,4 @@
+/*----------------styling header------------------------*/
 div#header{
 
 width: 100%;
@@ -8,25 +9,77 @@ margin: 0 auto;
 
 }
 
-div >h1{
 
-    color: #fff;
-    text-align: center;
-    z-index: 1;
-    padding-top: 20%;
-}
+/*----------------styling header------------------------*/
 
+/* Here i have positioned the logo */
 
+.logo{
 
-div >h2{
-
-    color: #fff;
-    text-align: center;
-    z-index: 1;
+float: left;
+margin-top: 6px;
+margin-left: 15px;
 
 
 }
 
+
+
+/*----------------styling header------------------------*/
+
+
+/*em is extra margine, I am styling the logo*/
+
+.logo a{
+
+font-size: 1.6em;
+color: #42647f;
+
+}
+
+
+/*----------------styling header------------------------*/
+
+/*Here we are styling the <span>, look up font weight*/
+
+.logo a span{
+
+font-weight:300;
+
+}
+
+
+/*----------------styling unordered list-----------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/*----------------styling li href------------------------*/
+
+a {
+    display: block;
+    width: 100px;
+
+}
+
+
+/*----------------styling list items---------------------*/
+
+li {
+    display: inline;
+    float:left;
+}
+
+
+
+
+
+/*----------------styling part 1------------------------*/
 
 
 #part1{
@@ -39,16 +92,29 @@ div >h2{
 
 }
 
+/*----------------styling div up------------------------*/
+.up{
 
+    color: #fff;
+    text-align: center;
+    z-index: 1;
+    padding-top: 20%;
+    /*padding-left: 15%;*/
+}
+
+/*----------------styling part 2------------------------*/
 
 #part2{
     padding-top: 20px;
     margin-top: 50px;
     background-color: #ffffff;
-	/*background-size: cover;*/
+	background-size: cover;
 	height: 500px;
 
 }
+
+
+/*----------------styling part 3------------------------*/
 
 #part3{
     text-align: center;
@@ -65,6 +131,8 @@ div >h2{
 
 }
 
+/*----------------styling text class---------------------*/
+
 .text {
     float: left;
     margin-left: 100px;
@@ -72,93 +140,31 @@ div >h2{
     padding-top: 150px;
 }
 
-/*#hh1,#hh2{
+
+/*----------------styling header------------------------*/
+
+#hh1,#hh2{
     border: 5px;
     color: #fff;
     z-index: 100;
     filter: brightness(100%);
-    -webkit-filter: brightness(100%);*/
+    -webkit-filter: brightness(100%);
 
 
 
 }
 
 
-
-#dash{
-    float:right;
-    /*margin-right: 50px;*/
-
-
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-
-}
-
-a {
-    display: block;
-    width: 100px;
-
-}
-
-li {
-    display: inline;
-    float:left;
-}
-
-
-
-
-
-/* Here i have positioned the logo */
-
-.logo{
-
-float: left;
-margin-top: 6px;
-margin-left: 15px;
-
-
-}
-
-
-
-
-
-
-/*em is extra margine, I am styling the logo*/
-
-.logo a{
-
-font-size: 1.6em;
-color: #42647f;
-
-}
-
-
-
-
-/*Here we are styling the <span>, look up font weight*/
-
-.logo a span{
-
-font-weight:300;
-
-}
-
-
-
-
+/*----------------styling header------------------------*/
 
 .top{
     padding-top:120px;
 
 
 }
+
+
+/*----------------styling map------------------------*/
 
 #map {
 	width: 100%;
@@ -169,11 +175,32 @@ font-weight:300;
     margin-right: 5px;
 }
 
+
+/*----------------styling header------------------------*/
+
+
 #close{
 
     background-color: #131313;
     width: 100%;
     margin-top: 50px;
     /*margin-left: 100px*/
+
+}
+
+/*------------------------The end------------------------*/
+
+
+/*----------------styling header------------------------*/
+
+/*#dash{
+    float:right;
+    margin-right: 50px;*/
+
+
+}
+
+.button{
+    color: #95be22;
 
 }
